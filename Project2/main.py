@@ -7,7 +7,7 @@ name = input("Swagat h, enter your name : ")
 presentHours = datetime.datetime.now().hour
        
 
-if 5 <= presentHours <= 11: # <= --> grater than and <= ---> less than
+if 5 <= presentHours <= 11: 
     print("Good morning, ", name)
 elif 11 <= presentHours <= 17:
     print("Good afternoon, ", name)
