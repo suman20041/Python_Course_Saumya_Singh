@@ -13,6 +13,9 @@ print(x ** y)
 print( x == y) #False
 print(x < y) #False
 print(x > y) #True
+print(x <= y) #False
+print(x >= y) #True
+print(x != y) # True
 
 # Logical opeartors
 print("AND Operator Result: ",x>y and x<y) #False
