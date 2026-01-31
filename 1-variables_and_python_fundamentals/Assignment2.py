@@ -9,7 +9,7 @@
 diameter = int(input("Enter the value of diameter: "))
 radius = diameter/2
 area = 3.14 * (radius ** 2)
-print("radius of the circle is:", radius)
+print("Radius of the circle is:", radius)
 print("Area of the circle is:", area)
 
 
