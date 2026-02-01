@@ -6,6 +6,9 @@ print(str.find("an")) # return index number of the first occorance
 print(str.replace("panda", "Best")) # replace the old character to the new character in a string use .replace method
 print(str.count("a")) #count the occurance
 
+
+#escape sequence
+
 print("Hello World")
 print("Hello\nWorld")
 print("Hello \t World")
