@@ -9,7 +9,7 @@
 # Each will pay: 250.0
 
 bill_amount = float(input("Total bill: "))
-friends = float(input("Friends: "))
+friends = int(input("Friends: "))
 Each_Person = bill_amount/friends
 print("Each will pay: ",Each_Person)
 print("Data Type of bill_amount: ", type(bill_amount))
