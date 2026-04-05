@@ -13,3 +13,10 @@ trailSecondHalf = str[5: ] #Jamun
 
 print(secondHalf)
 print(trailSecondHalf)
+
+# Negative Indexing
+
+print(str[-5:-1])
+print(str[-5:])
+print(str[:-1])
+print(str[:])
