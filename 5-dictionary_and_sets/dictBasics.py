@@ -29,3 +29,4 @@ print(student.items())
 # update method
 # student.update(students)
 # print(student)
+# .clear method remove all items(key-value pairs) from a dictionary
