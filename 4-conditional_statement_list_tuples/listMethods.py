@@ -2,6 +2,7 @@
 
 #Lists are mutable
 marks = [99, 100, 90, 95]
+print(marks[1]) # indexing
 print(marks)
 
 # marks[1] = 98
@@ -14,6 +15,7 @@ print(min(marks))
 marks.append(92)
 print(marks)
 marks.sort()
+# print(marks.sort())  #None
 print(marks)
 marks.pop(1)
 print(marks)
