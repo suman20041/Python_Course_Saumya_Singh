@@ -37,9 +37,8 @@ good_morning()
 #  (ii) They help in avoiding redundancy(duplicacy)
 
 
-
-# Simple Function Calling with No Argument
 def IamBest():
     print("Just a Trial Function")
 
+# Simple Function Calling with No Argument
 IamBest()
