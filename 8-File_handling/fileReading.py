@@ -9,7 +9,7 @@
 
 # with keyword
 
-# with open("report.txt", "r") as f:
+# with open("report.txt", "r") as f:  #as f means that the file being opened is given a temporary name (alias) — here, f.
     # data = f.read()
     # print("File Data: ", data)
 
@@ -20,7 +20,7 @@ with open("newTextFile.txt", "r") as f:
     # line4 = f.readline()
     # line5 = f.readline() # when come to last line then point to the empty line
     # line6 = f.readline()
-    # data = f.read() # not able to read the whole file content because we already read the readline 5 times
+    # data = f.read() # not able to read the whole file content because we already use readline method 5 times
     # print("Line 1", line1)
     # print("Line 2", line2)
     # print("Line 3", line3)
